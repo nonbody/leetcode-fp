@@ -1,5 +1,4 @@
 ```ts
-// leetcode provided func type
 const shiftFunc = (target: string, arr: string[]) => {
   const v = arr.shift();
   if (v !== target) {
@@ -7,6 +6,7 @@ const shiftFunc = (target: string, arr: string[]) => {
   }
 };
 
+// leetcode provided func type
 function lengthOfLongestSubstring(s: string): number {
   let max = 0;
   const longest: string[] = [];
