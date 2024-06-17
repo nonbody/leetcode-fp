@@ -6,7 +6,7 @@ const shiftFunc = (target: string, arr: string[]) => {
   }
 };
 
-// leetcode provided func type
+// main
 function lengthOfLongestSubstring(s: string): number {
   let max = 0;
   const longest: string[] = [];
